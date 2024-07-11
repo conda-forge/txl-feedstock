@@ -1,5 +1,5 @@
 {% set name = "txl" %}
-{% set version = "0.2.14" %}
+{% set version = "0.2.15" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ceb02e2e00b46a9493a5bd0c302aecd5590f85c2122a41aa825aedd335b79854
+  sha256: 68e52f595d7f371440d235c46bb3a0bf0d9d0dab827e44f9045d2418b4eb8b88
 
 build:
   noarch: python
