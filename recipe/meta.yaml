@@ -22,27 +22,25 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - asphalt >=4.12.0,<5.0.0
-    - textual >=1.0.0,<2.0.0
+    - fps >=0.2.1,<3.0.0
+    - textual >=3.0.1,<4.0.0
     - tree_sitter
     - tree_sitter_languages
 
 test:
-  # `pip check` was disabled, see: https://github.com/conda-forge/staged-recipes/pull/26869
-  #
-  # requires:
-  #   - pip
-  # commands:
-  #   - pip check
+  requires:
+    - pip
+  commands:
+    - pip check
   requires:
     - python {{ python_min }}
   imports:
     - txl
 
 about:
-  home: https://github.com/davidbrochart/jpterm/tree/main/txl
+  home: https://codeberg.org/davidbrochart/jpterm/src/branch/main/txl
   summary: The plugin system for jpterm
-  dev_url: https://github.com/davidbrochart/jpterm/tree/main/txl
+  dev_url: https://codeberg.org/davidbrochart/jpterm/src/branch/main/txl
   license_file: LICENSE.txt
   license: MIT
   license_family: MIT
