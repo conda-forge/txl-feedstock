@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "txl" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 994c6f03d9649984deeb6e8460bd5020ba957e9424c6fc5d4fcecd4e0121dee3
+  sha256: af43fdd59a4f5e6e9e8749bdf5c89f23da2ac3c1482d271d18e27ec26cc1880a
 
 build:
   noarch: python
