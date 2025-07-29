@@ -3,13 +3,13 @@ About txl-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/txl-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/davidbrochart/jpterm/tree/main/txl
+Home: https://codeberg.org/davidbrochart/jpterm/src/branch/main/txl
 
 Package license: MIT
 
 Summary: The plugin system for jpterm
 
-Development: https://github.com/davidbrochart/jpterm/tree/main/txl
+Development: https://codeberg.org/davidbrochart/jpterm/src/branch/main/txl
 
 Current build status
 ====================
