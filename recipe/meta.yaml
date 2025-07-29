@@ -22,8 +22,8 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - fps >=0.2.1,<3.0.0
-    - textual >=3.0.1,<4.0.0
+    - fps >=0.5.1,<6.0.0
+    - textual >=5.0.1,<6.0.0
     - tree_sitter
     - tree_sitter_languages
 
@@ -37,9 +37,9 @@ test:
     - txl
 
 about:
-  home: https://codeberg.org/davidbrochart/jpterm/src/branch/main/txl
+  home: https://github.com/davidbrochart/jpterm/tree/main/txl
   summary: The plugin system for jpterm
-  dev_url: https://codeberg.org/davidbrochart/jpterm/src/branch/main/txl
+  dev_url: https://github.com/davidbrochart/jpterm/tree/main/txl
   license_file: LICENSE.txt
   license: MIT
   license_family: MIT
