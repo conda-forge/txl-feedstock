@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: af43fdd59a4f5e6e9e8749bdf5c89f23da2ac3c1482d271d18e27ec26cc1880a
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: ecab1064d28b206449c154f08ee8283df3356476b5362a98b298c66868526739
 
 build:
   noarch: python
